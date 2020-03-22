@@ -41,6 +41,15 @@ module.exports = function(app) {
 	// Delete method
 
 	app.delete('/api/notes/:id', function(req, res) {
-		//
+		// Find the note with the id property & send 404 if note not found
+		const noteDel = dbJson.find((n) => n.id == parseInt(req.params.id));
+		if (!noteDel) return res.status(404).send('The note was not found.');
+
+		// Delete the note
+		const index = dbJson.indexOf(noteDel);
+		dbJson.splice(index, 1);
+
+		// Send response
+		res.send(noteDel);
 	});
 };
