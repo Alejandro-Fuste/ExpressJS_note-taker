@@ -71,3 +71,8 @@ npm test
 If you have any questions about the repo, open an issue or contact [Alejandro Fuste](https://github.com/ZepCap) directly through GitHub.
 
 
+## Finished HW GIF
+
+<img src="./develop/public/assets/images/noteTakerGif.gif" alt="finished gif" style="border-radius: 16px" width="300" height="180"/>
+
+- - - 
