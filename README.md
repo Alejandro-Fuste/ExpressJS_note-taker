@@ -4,7 +4,7 @@
 
 ## Description 
 
-The purpose of this application is to connect the front-end and the backend. This note-taking app will be able to write, save, and delete notes. This application will be using an express backend to connect the front and the back.  
+The purpose of this application is to connect the front-end and the backend. This note-taking app will be able to write, save, and delete notes. This application will be using an <strong>Express.js</strong> backend to connect the front and the back.  
 
 ## User Story
 
